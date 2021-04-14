@@ -1,0 +1,19 @@
+{
+  "name": "roberts-to-bird-lasser",
+  "version": "1.0.0",
+  "description": "Convert and import",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^5.4.0",
+    "csv-generate": "^3.3.0",
+    "csv-parse": "^4.15.3",
+    "json2csv": "^5.0.6",
+    "luxon": "^1.26.0",
+    "underscore": "^1.12.1"
+  }
+}
