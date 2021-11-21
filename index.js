@@ -65,6 +65,16 @@ function convert(fileName) {
                 record.bird_name = 'Eurasian Whimbrel';
             else if (record.bird_name === 'Dark-capped Yellow Warbler')
                 record.bird_name = 'African Yellow Warbler';
+            else if (record.bird_name === 'African Quail-Finch')
+                record.bird_name = 'Quailfinch';
+            else if (record.bird_name === 'Yellow Weaver')
+                record.bird_name = 'Eastern Golden Weaver';
+            else if (record.bird_name === 'African Yellow White-eye')
+                record.bird_name = 'Southern Yellow White-eye';
+            else if (record.bird_name === 'Broad-tailed Warbler')
+                record.bird_name = 'Fan-tailed Grassbird';
+            else if (record.bird_name === 'Ayres Hawk Eagle')
+                record.bird_name = 'Ayres\'s Hawk-Eagle';
 
             return {
                 SPECIES_NAME_ENG: record.bird_name,
